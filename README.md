@@ -1,5 +1,5 @@
 # TSP-IT
-An Independence Test based on Data-Driven Tree-Structured Representations (TSP).
+An Independence Test based on Data-Driven Tree-Structured Representations.
 
 ## Contents
 This repository includes:
@@ -65,6 +65,6 @@ new_emi = tsp.emi()
 ```
 
 ## References
-[[1](https://arxiv.org/pdf/2110.14122.pdf)] Silva, J. F., & Narayanan, S. (in press). Data-Driven Representations for Testing Independence: Modeling, Analysis and Connection with Mutual Information Estimation. *IEEE Transactions on Signal Processing*.
+[[1](https://arxiv.org/pdf/2110.14122.pdf)] Silva, J. F., & Narayanan, S. (in press). **Data-Driven Representations for Testing Independence: Modeling, Analysis and Connection with Mutual Information Estimation**. *IEEE Transactions on Signal Processing*.
 
-[[2](https://sail.usc.edu/publications/files/silva_tit_2012.pdf)] Silva, J. F., & Narayanan, S. (2012). Complexity-regularized tree-structured partition for mutual information estimation. *IEEE transactions on information theory, 58*(3), 1940-1952.
+[[2](https://sail.usc.edu/publications/files/silva_tit_2012.pdf)] Silva, J. F., & Narayanan, S. (2012). **Complexity-regularized tree-structured partition for mutual information estimation**. *IEEE transactions on information theory, 58*(3), 1940-1952.
