@@ -49,8 +49,8 @@ Y = np.array([...], order='F')
 # Initialize the TSP with its parameters
 l_bn = 0.167
 w_bn = 5e-2
-reg_lambda = 2.5e-5
-tsp = TSP(l_bn, w_bn, reg_lambda)
+reg_factor = 2.5e-5
+tsp = TSP(l_bn, w_bn, reg_factor)
 
 # Set observations to the estimator
 tsp.grow(X, Y)
@@ -62,12 +62,12 @@ emi = tsp.emi()
 # Regularize the TSP mutual information estimator
 tsp.regularize()
 
-# Get the new values of size and estimated mutual information
-new_size = tsp.size()
-new_emi = tsp.emi()
+# Get the regularized TSP size and estimated mutual information
+reg_size = tsp.size()
+reg_emi = tsp.emi()
 ```
 
 ## References
 [[1](https://arxiv.org/pdf/2110.14122.pdf)]  Gonzalez, M. E., Silva, J. F., Videla, M., & Orchard, M. E. (in press). **Data-Driven Representations for Testing Independence: Modeling, Analysis and Connection with Mutual Information Estimation**. *IEEE Transactions on Signal Processing*.
 
-[[2](https://sail.usc.edu/publications/files/silva_tit_2012.pdf)] Silva, J. F., & Narayanan, S. (2012). **Complexity-regularized tree-structured partition for mutual information estimation**. *IEEE Transactions on Information Theory, 58*(3), 1940-1952.
+[[2](https://sail.usc.edu/publications/files/silva_tit_2012.pdf)] Silva, J. F., & Narayanan, S. (2012). **Complexity-Regularized Tree-Structured Partition for Mutual Information Estimation**. *IEEE Transactions on Information Theory, 58*(3), 1940-1952.
