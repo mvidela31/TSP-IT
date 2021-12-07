@@ -41,7 +41,8 @@ sys.path.insert(1, '../src/build')
 # Then import the package
 from TSP import TSP
 
-# Initialize NumPy arrays of shape (n_samples, dim) with random variables samples in Fortran-contiguous memory order.
+# Initialize NumPy arrays of shape (n_samples, dim) with random 
+# variables samples in Fortran-contiguous memory order
 X = np.array([...], order='F')
 Y = np.array([...], order='F')
 
@@ -69,4 +70,4 @@ new_emi = tsp.emi()
 ## References
 [[1](https://arxiv.org/pdf/2110.14122.pdf)]  Gonzalez, M. E., Silva, J. F., Videla, M., & Orchard, M. E. (in press). **Data-Driven Representations for Testing Independence: Modeling, Analysis and Connection with Mutual Information Estimation**. *IEEE Transactions on Signal Processing*.
 
-[[2](https://sail.usc.edu/publications/files/silva_tit_2012.pdf)] Silva, J. F., & Narayanan, S. (2012). **Complexity-regularized tree-structured partition for mutual information estimation**. *IEEE transactions on information theory, 58*(3), 1940-1952.
+[[2](https://sail.usc.edu/publications/files/silva_tit_2012.pdf)] Silva, J. F., & Narayanan, S. (2012). **Complexity-regularized tree-structured partition for mutual information estimation**. *IEEE Transactions on Information Theory, 58*(3), 1940-1952.
