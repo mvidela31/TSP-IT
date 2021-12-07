@@ -3,8 +3,8 @@ An Independence Test based on Data-Driven Tree-Structured Representations.
 
 ## Contents
 This repository includes:
-- A Python wrapper to C++ implementation of the histogram-based mutual information estimator based on data-driven tree-structured partitions (TSP) presented by [[Silva et al. (2012)](https://arxiv.org/pdf/2110.14122.pdf)].
-- A python implementation of the independence test based on the data-driven tree-structured partitions (TSP) presented by [[Gonzalez et al. (2021)](https://arxiv.org/pdf/2110.14122.pdf)] (including all the experiments developed).
+- A Python wrapper to C++ implementation of the histogram-based mutual information estimator based on data-driven tree-structured partitions (TSP) presented by [Silva et al. (2012)](https://arxiv.org/pdf/2110.14122.pdf).
+- A python implementation of the independence test based on the data-driven tree-structured partitions (TSP) presented by [Gonzalez et al. (2021)](https://arxiv.org/pdf/2110.14122.pdf) (including all the experiments developed).
 
 ## Requirements
 * [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page).
@@ -15,7 +15,7 @@ This repository includes:
 
 ## Installation
 ### Clone
-- Clone this repo to your local machine using `https://github.com/mvidela31/TSP-MI`
+- Clone this repo to your local machine using `https://github.com/mvidela31/TSP-IT`
 ### Setup
 - Set the NumPy library path on line 9 of the file `./src/CMakeLists.txt`. For example:
 ```CMakeLists
