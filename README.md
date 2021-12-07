@@ -3,8 +3,8 @@ An Independence Test based on Data-Driven Tree-Structured Representations.
 
 ## Contents
 This repository includes:
-- A Python wrapper to C++ implementation of the histogram-based mutual information estimator based on data-driven tree-structured partitions (TSP) presented by [[Silva et al. (2012)] (https://arxiv.org/pdf/2110.14122.pdf)].
-- A python implementation of the independence test based on the data-driven tree-structured partitions (TSP) presented by [[Gonzales et al. (2021)] (https://arxiv.org/pdf/2110.14122.pdf)] (including all the experiments developed).
+- A Python wrapper to C++ implementation of the histogram-based mutual information estimator based on data-driven tree-structured partitions (TSP) presented by [[Silva et al. (2012)](https://arxiv.org/pdf/2110.14122.pdf)].
+- A python implementation of the independence test based on the data-driven tree-structured partitions (TSP) presented by [[Gonzalez et al. (2021)](https://arxiv.org/pdf/2110.14122.pdf)] (including all the experiments developed).
 
 ## Requirements
 * [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page).
@@ -65,6 +65,6 @@ new_emi = tsp.emi()
 ```
 
 ## References
-[[1](https://arxiv.org/pdf/2110.14122.pdf)] Silva, J. F., & Narayanan, S. (in press). **Data-Driven Representations for Testing Independence: Modeling, Analysis and Connection with Mutual Information Estimation**. *IEEE Transactions on Signal Processing*.
+[[1](https://arxiv.org/pdf/2110.14122.pdf)]  Gonzalez, M. E., Silva, J. F., Videla, M., & Orchard, M. E. (in press). **Data-Driven Representations for Testing Independence: Modeling, Analysis and Connection with Mutual Information Estimation**. *IEEE Transactions on Signal Processing*.
 
 [[2](https://sail.usc.edu/publications/files/silva_tit_2012.pdf)] Silva, J. F., & Narayanan, S. (2012). **Complexity-regularized tree-structured partition for mutual information estimation**. *IEEE transactions on information theory, 58*(3), 1940-1952.
