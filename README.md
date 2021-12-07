@@ -5,7 +5,7 @@ An Independence Test based on Data-Driven Tree-Structured Representations.
 
 ## Contents
 This repository includes:
-- A Python wrapper to C++ implementation of the histogram-based mutual information estimator based on data-driven tree-structured partitions (TSP) presented by [Silva et al. (2012)](https://arxiv.org/pdf/2110.14122.pdf).
+- A Python wrapper to C++ implementation of the mutual information estimator based on data-driven tree-structured partitions (TSP) presented by [Silva et al. (2012)](https://arxiv.org/pdf/2110.14122.pdf).
 - A Python implementation of the independence test based on the data-driven tree-structured partitions (TSP) presented by [Gonzalez et al. (2021)](https://arxiv.org/pdf/2110.14122.pdf) (including all the experiments developed).
 
 ## Requirements
