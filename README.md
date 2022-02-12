@@ -68,6 +68,6 @@ reg_emi = tsp.emi()
 ```
 
 ## References
-[[1](https://arxiv.org/pdf/2110.14122.pdf)]  Gonzalez, M. E., Silva, J. F., Videla, M., & Orchard, M. E. (in press). **Data-Driven Representations for Testing Independence: Modeling, Analysis and Connection with Mutual Information Estimation**. *IEEE Transactions on Signal Processing*.
+[[1](https://arxiv.org/pdf/2110.14122.pdf)]  Gonzalez, M. E., Silva, J. F., Videla, M., & Orchard, M. E. (2021). **Data-Driven Representations for Testing Independence: Modeling, Analysis and Connection with Mutual Information Estimation**. *IEEE Transactions on Signal Processing, 70*, 158-173.
 
 [[2](https://sail.usc.edu/publications/files/silva_tit_2012.pdf)] Silva, J. F., & Narayanan, S. (2012). **Complexity-Regularized Tree-Structured Partition for Mutual Information Estimation**. *IEEE Transactions on Information Theory, 58*(3), 1940-1952.
